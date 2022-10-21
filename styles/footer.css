@@ -92,3 +92,27 @@
 .social-links__item {
   margin-left: 20px;
 }
+
+.logo-vertical {
+}
+
+.logo-vertical__image {
+}
+
+.logo-vertical__title {
+}
+
+.logo-vertical__description {
+}
+
+@media screen and (min-width: 400px) {
+  .logo-vertical {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 399px) {
+  .footer .logo {
+    display: none;
+  }
+}
