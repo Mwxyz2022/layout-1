@@ -9,6 +9,17 @@
   border: none;
 }
 
+.learn-button {
+  background-color: #fff;
+  color: #3040c4;
+  width: 160px;
+  height: 48px;
+  font-size: 18px;
+  font-weight: 700;
+  border-radius: 2px;
+  border: none;
+}
+
 @media screen and (min-width: 1400px) {
   .hide_desktop {
     display: none;
@@ -154,6 +165,83 @@
   }
 }
 
+.audience {
+  display: flex;
+  flex-direction: column;
+  padding: 50px 15px;
+  background-color: rgba(0, 161, 198, 0.0705882353);
+}
+.audience__subtitle {
+  margin: 0;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 34px;
+  text-align: center;
+}
+.audience__title {
+  margin: 0;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 40px;
+  text-align: center;
+  letter-spacing: -0.357143px;
+  margin-top: 17px;
+}
+.audience__description {
+  margin: 0;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 34px;
+  text-align: center;
+  margin-top: 18px;
+}
+.audience__actions {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+}
+.audience__proposal {
+  margin: 0;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+}
+.audience__proposal .proposal {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.00001) 100%), #ffffff;
+  background-blend-mode: overlay, normal;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+.audience__proposal .proposal:last-child {
+  margin-bottom: 0;
+}
+.audience__proposal .proposal__img {
+  margin-top: 22px;
+  max-width: 100%;
+}
+.audience__proposal .proposal__title {
+  margin: 0;
+  margin-top: 22px;
+  margin-bottom: 33px;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 28px;
+  text-align: center;
+}
+.audience__proposal .proposal:hover {
+  background-color: #3141c5;
+  cursor: pointer;
+}
+.audience__actions-btn {
+  width: 100%;
+}
+.audience__learn-btn {
+  margin-top: 12px;
+  width: 100%;
+}
+
 .order {
   padding: 50px 15px;
   background-color: #f4f5f7;
@@ -161,6 +249,9 @@
 @media screen and (min-width: 1400px) {
   .order {
     padding: 73px 0 72px 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
   }
 }
 .order__illustration {
@@ -172,11 +263,13 @@
     margin-right: 121px;
   }
 }
+.order__details {
+  max-width: 555px;
+}
 .order__title {
   font-weight: 700;
   font-size: 40px;
   line-height: 40px;
-  text-align: center;
   letter-spacing: -0.25px;
   margin-top: 40px;
 }
@@ -185,6 +278,12 @@
   line-height: 32px;
   margin: 0;
   margin-top: 18px;
+}
+@media screen and (min-width: 1400px) {
+  .order__form {
+    display: flex;
+    margin-top: 26px;
+  }
 }
 .order__email {
   margin-top: 40px;
@@ -197,12 +296,28 @@
   font-size: 18px;
   line-height: 13px;
 }
+@media screen and (min-width: 1400px) {
+  .order__email {
+    margin-top: 0;
+  }
+}
 .order__email ::placeholder {
   color: #2b292d;
 }
 .order__button {
   margin-top: 12px;
-  width: 100%;
+}
+@media screen and (max-width: 1399px) {
+  .order__button {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .order__button {
+    margin-top: 0;
+    margin-left: 10px;
+    flex-shrink: 0;
+  }
 }
 .order__terms {
   font-size: 14px;
@@ -740,12 +855,10 @@ html {
 
 .page {
   width: 100%;
-  overflow-x: hidden;
 }
-
-@media screen and (min-width: 400px) {
+@media screen and (min-width: 1400px) {
   .page {
-    width: 1400px;
+    max-width: 1400px;
     margin: auto;
     min-height: 100vh;
     display: flex;

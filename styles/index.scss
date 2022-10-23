@@ -2,6 +2,7 @@
 @import 'breakpoints.scss';
 @import 'common.scss';
 @import 'header.scss';
+@import 'audience.scss';
 @import 'order.scss';
 @import 'footer.scss';
 @import 'headline.scss';
@@ -21,12 +22,9 @@ html {
 }
 .page {
   width: 100%;
-  overflow-x: hidden;
-}
 
-@media screen and (min-width: 400px) {
-  .page {
-    width: 1400px;
+  @include for-large-up {
+    max-width: 1400px;
     margin: auto;
     min-height: 100vh;
     display: flex;
