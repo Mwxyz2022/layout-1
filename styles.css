@@ -171,6 +171,17 @@
   padding: 50px 15px;
   background-color: rgba(0, 161, 198, 0.0705882353);
 }
+@media screen and (min-width: 1400px) {
+  .audience {
+    padding-bottom: 0;
+    align-items: center;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .audience__info {
+    width: 555px;
+  }
+}
 .audience__subtitle {
   margin: 0;
   font-weight: 700;
@@ -187,6 +198,13 @@
   letter-spacing: -0.357143px;
   margin-top: 17px;
 }
+@media screen and (min-width: 1400px) {
+  .audience__title {
+    margin-top: 24px;
+    font-size: 56px;
+    line-height: 56px;
+  }
+}
 .audience__description {
   margin: 0;
   font-weight: 400;
@@ -195,16 +213,35 @@
   text-align: center;
   margin-top: 18px;
 }
+@media screen and (min-width: 1400px) {
+  .audience__description {
+    margin-top: 30px;
+  }
+}
 .audience__actions {
   margin-top: 30px;
   display: flex;
   flex-direction: column;
+}
+@media screen and (min-width: 1400px) {
+  .audience__actions {
+    flex-direction: row;
+    justify-content: center;
+  }
 }
 .audience__proposal {
   margin: 0;
   margin-top: 40px;
   display: flex;
   flex-direction: column;
+}
+@media screen and (min-width: 1400px) {
+  .audience__proposal {
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1139px;
+    margin: 111px 130px 110px 130px;
+  }
 }
 .audience__proposal .proposal {
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.00001) 100%), #ffffff;
@@ -213,6 +250,13 @@
   border-radius: 8px;
   text-align: center;
   margin-bottom: 15px;
+}
+@media screen and (min-width: 1400px) {
+  .audience__proposal .proposal {
+    margin: 0;
+    width: 262px;
+    height: 300px;
+  }
 }
 .audience__proposal .proposal:last-child {
   margin-bottom: 0;
@@ -237,9 +281,21 @@
 .audience__actions-btn {
   width: 100%;
 }
+@media screen and (min-width: 1400px) {
+  .audience__actions-btn {
+    width: 160px;
+  }
+}
 .audience__learn-btn {
   margin-top: 12px;
   width: 100%;
+}
+@media screen and (min-width: 1400px) {
+  .audience__learn-btn {
+    margin-top: 0;
+    margin-left: 10px;
+    width: 158px;
+  }
 }
 
 .order {
