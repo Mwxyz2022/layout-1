@@ -32,9 +32,6 @@
   }
 }
 
-.hide_mobile {
-  width: 320px;
-}
 @media screen and (max-width: 1399px) {
   .hide_mobile {
     display: none;
@@ -175,7 +172,7 @@
 }
 
 .audience {
-  padding: 0 15px;
+  padding: 0 15px 50px 15px;
   background-color: rgba(0, 161, 198, 0.0705882353);
 }
 @media screen and (min-width: 1400px) {
@@ -234,7 +231,7 @@
   }
 }
 .audience__actions {
-  margin-top: 26px;
+  margin-top: 30px;
   display: flex;
   flex-direction: column;
 }
@@ -439,7 +436,7 @@
 .about-company {
   margin-top: 44px;
   padding-bottom: 40px;
-  border-bottom: 1px solid #2b292d;
+  border-bottom: 1px solid rgba(43, 41, 45, 0.1019607843);
 }
 @media screen and (min-width: 1400px) {
   .about-company {

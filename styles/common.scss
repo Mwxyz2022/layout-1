@@ -35,7 +35,6 @@
 }
 
 .hide_mobile {
-  width: 320px;
   @include for-large-down {
     display: none;
   }
