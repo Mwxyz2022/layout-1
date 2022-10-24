@@ -86,10 +86,10 @@
     }
 
     .proposal {
+      height: 300px;
       @include for-large-up {
         margin: 0;
         width: 262px;
-        height: 300px;
       }
       background: linear-gradient(
           180deg,
