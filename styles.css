@@ -32,6 +32,9 @@
   }
 }
 
+.hide_mobile {
+  width: 320px;
+}
 @media screen and (max-width: 1399px) {
   .hide_mobile {
     display: none;
@@ -419,7 +422,7 @@
   width: 100%;
   opacity: 0.1;
   margin: 0;
-  margin-top: 39px;
+  margin-top: 40px;
 }
 @media screen and (min-width: 1400px) {
   .footer__line {
