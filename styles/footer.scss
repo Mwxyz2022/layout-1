@@ -37,6 +37,13 @@
 
 .about-company {
   margin-top: 44px;
+  padding-bottom: 40px;
+  border-bottom: 1px solid #2b292d;
+
+  @include for-large-up {
+    padding-bottom: 0;
+    border: none;
+  }
 }
 
 .footer-navigation {
