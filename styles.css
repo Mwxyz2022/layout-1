@@ -185,6 +185,7 @@
 }
 @media screen and (min-width: 1400px) {
   .audience__info {
+    margin-top: 58px;
     width: 555px;
   }
 }
@@ -791,7 +792,7 @@
   width: 459px;
 }
 .features__column:last-child {
-  margin: 9px;
+  margin: 8px;
 }
 .features__subtitle {
   font-weight: 700;
