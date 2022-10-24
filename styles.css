@@ -8,6 +8,9 @@
   border-radius: 2px;
   border: none;
 }
+.action-button:hover {
+  cursor: pointer;
+}
 
 .learn-button {
   background-color: #fff;
