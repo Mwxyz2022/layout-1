@@ -172,13 +172,13 @@
 }
 
 .audience {
-  display: flex;
-  flex-direction: column;
   padding: 50px 15px;
   background-color: rgba(0, 161, 198, 0.0705882353);
 }
 @media screen and (min-width: 1400px) {
   .audience {
+    display: flex;
+    flex-direction: column;
     padding-bottom: 0;
     align-items: center;
   }
@@ -210,6 +210,7 @@
     margin-top: 24px;
     font-size: 56px;
     line-height: 56px;
+    letter-spacing: -0.5px;
   }
 }
 .audience__description {

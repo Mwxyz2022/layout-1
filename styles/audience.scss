@@ -1,10 +1,10 @@
 .audience {
-  display: flex;
-  flex-direction: column;
   padding: 50px 15px;
   background-color: $color-light-blue;
 
   @include for-large-up {
+    display: flex;
+    flex-direction: column;
     padding-bottom: 0;
     align-items: center;
   }
@@ -40,7 +40,7 @@
       margin-top: 24px;
       font-size: 56px;
       line-height: 56px;
-      // letter-spacing: -0.5px;
+      letter-spacing: -0.5px;
     }
   }
 
