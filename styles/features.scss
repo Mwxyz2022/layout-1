@@ -14,6 +14,9 @@
 
   &__column {
     width: 459px;
+    &:last-child {
+      margin: 9px;
+    }
   }
 
   &__subtitle {

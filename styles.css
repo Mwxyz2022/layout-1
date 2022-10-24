@@ -790,6 +790,9 @@
 .features__column {
   width: 459px;
 }
+.features__column:last-child {
+  margin: 9px;
+}
 .features__subtitle {
   font-weight: 700;
   font-size: 22px;
