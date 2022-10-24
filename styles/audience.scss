@@ -11,6 +11,7 @@
 
   &__info {
     padding-top: 50px;
+
     @include for-large-up {
       margin-top: 58px;
       width: 555px;
