@@ -7,11 +7,11 @@
   padding-left: 15px;
 
   @include for-large-up {
+    display: flex;
+    margin: auto;
     background-color: #f3c6bd;
     width: 1140px;
     height: 62px;
-    margin: auto;
-    display: flex;
   }
 
   &__button {

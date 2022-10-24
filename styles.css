@@ -48,11 +48,11 @@
 }
 @media screen and (min-width: 1400px) {
   .header {
+    display: flex;
+    margin: auto;
     background-color: #f3c6bd;
     width: 1140px;
     height: 62px;
-    margin: auto;
-    display: flex;
   }
 }
 .header__button {
@@ -172,7 +172,7 @@
 }
 
 .audience {
-  padding: 50px 15px;
+  padding: 0 15px;
   background-color: rgba(0, 161, 198, 0.0705882353);
 }
 @media screen and (min-width: 1400px) {
@@ -182,6 +182,9 @@
     padding-bottom: 0;
     align-items: center;
   }
+}
+.audience__info {
+  padding-top: 50px;
 }
 @media screen and (min-width: 1400px) {
   .audience__info {
