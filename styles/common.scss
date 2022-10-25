@@ -13,15 +13,14 @@
   }
 }
 
-.learn-button {
-  width: 160px;
-  height: 48px;
-  color: $color-black;
-  font-weight: 700;
-  font-size: 18px;
-  background-color: $color-white;
-  border-radius: 2px;
-  border: none;
+.learn-btn {
+  width: 158px; ///
+  height: 48px; ///
+  font-weight: 700; ///
+  font-size: 18px; ///
+  border-radius: 2px; ///
+  border: none; ///
+  background-color: $color-white; ///
 
   &:hover {
     cursor: pointer;

@@ -135,6 +135,8 @@
   &__learn-btn {
     margin-top: 12px;
     width: 100%;
+    color: $color-black;
+
     @include for-large-up {
       margin-top: 0;
       margin-left: 10px;
