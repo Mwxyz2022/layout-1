@@ -1,15 +1,15 @@
-@import 'variables.scss';
-@import 'breakpoints.scss';
-@import 'common.scss';
-@import 'header.scss';
+@import './value/variables.scss';
+@import './value/breakpoints.scss';
+@import './value/common.scss';
+@import './top-section/header.scss';
+@import './top-section/headline.scss';
 @import 'audience.scss';
 @import 'order.scss';
-@import 'footer.scss';
-@import 'headline.scss';
 @import 'about.scss';
 @import 'customers.scss';
 @import 'features.scss';
 @import 'tips.scss';
+@import '../styles/footer/footer.scss';
 
 * {
   box-sizing: border-box;
