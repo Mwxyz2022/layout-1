@@ -1,10 +1,10 @@
 .action-button {
-  background-color: #3040c4;
-  color: #fff;
   width: 160px;
   height: 48px;
-  font-size: 18px;
   font-weight: 700;
+  font-size: 18px;
+  background-color: $color-blue;
+  color: $color-white;
   border-radius: 2px;
   border: none;
 
@@ -14,12 +14,12 @@
 }
 
 .learn-button {
-  background-color: #fff;
-  color: #000000;
   width: 160px;
   height: 48px;
-  font-size: 18px;
+  color: $color-black;
   font-weight: 700;
+  font-size: 18px;
+  background-color: $color-white;
   border-radius: 2px;
   border: none;
 

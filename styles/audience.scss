@@ -32,12 +32,12 @@
 
   &__title {
     margin: 0;
+    margin-top: 17px;
     font-weight: 700;
     font-size: 40px;
     line-height: 40px;
     text-align: center;
     letter-spacing: -0.357143px;
-    margin-top: 17px;
 
     @include for-large-up {
       margin-top: 24px;
@@ -49,11 +49,11 @@
 
   &__description {
     margin: 0;
+    margin-top: 18px;
     font-weight: 400;
     font-size: 24px;
     line-height: 34px;
     text-align: center;
-    margin-top: 18px;
 
     @include for-large-up {
       margin-top: 30px;
@@ -61,48 +61,43 @@
   }
 
   &__actions {
-    margin-top: 30px;
     display: flex;
     flex-direction: column;
+    margin-top: 30px;
 
     @include for-large-up {
-      margin-top: 30px;
       flex-direction: row;
       justify-content: center;
+      margin-top: 30px;
     }
   }
 
   &__proposal {
-    margin: 0;
-    margin-top: 40px;
     display: flex;
     flex-direction: column;
+    margin: 0;
+    margin-top: 40px;
 
     @include for-large-up {
       flex-direction: row;
       justify-content: space-between;
-      width: 1139px;
       margin: 111px 130px 110px 130px;
+      width: 1139px;
     }
 
     .proposal {
+      margin-bottom: 15px;
       height: 300px;
+      text-align: center;
+      background: $gradient-bg;
+      background-blend-mode: overlay, normal;
+      box-shadow: $shadow-prop-card;
+      border-radius: 8px;
+
       @include for-large-up {
         margin: 0;
         width: 262px;
       }
-      background: linear-gradient(
-          180deg,
-          rgba(255, 255, 255, 0.05) 0%,
-          rgba(255, 255, 255, 1e-5) 100%
-        ),
-        #ffffff;
-      background-blend-mode: overlay, normal;
-      box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05),
-        inset 0px 1px 0px rgba(255, 255, 255, 0.1);
-      border-radius: 8px;
-      text-align: center;
-      margin-bottom: 15px;
 
       &:last-child {
         margin-bottom: 0;
@@ -122,6 +117,7 @@
         line-height: 28px;
         text-align: center;
       }
+
       &:hover {
         background-color: $color-dark-blue;
         cursor: pointer;
