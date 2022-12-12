@@ -1,6 +1,7 @@
 .features {
   display: flex;
   position: relative;
+  padding: 76px 0 103px;
 
   @include for-large-down {
     display: none;

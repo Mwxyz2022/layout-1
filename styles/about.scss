@@ -5,8 +5,9 @@
 
   @include for-large-up {
     display: flex;
-    justify-content: space-between;
+    // justify-content: space-between;
     padding: 77px 130px 76px 130px;
+    gap: 29px;
   }
 }
 
@@ -33,6 +34,6 @@
     line-height: 32px;
   }
   @include for-large-up {
-    width: 555px;
+    // width: 555px;
   }
 }
