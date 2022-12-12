@@ -1,8 +1,8 @@
 # Foundation project
 
-### [Site link](....)
+### [Site link](https://mwxyz2022.github.io/project_1/)
 
-Some text....
+The layout supports mobile (from 320) and desktop (from 1400) versions.
 
 ### The tech stack is:
 
