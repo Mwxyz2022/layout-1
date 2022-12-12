@@ -1,4 +1,4 @@
-# Layout Sample Project
+# Foundation project
 
 ### [Site link](....)
 
