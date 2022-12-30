@@ -443,6 +443,11 @@
   text-align: center;
   letter-spacing: -0.25px;
 }
+@media screen and (min-width: 1400px) {
+  .order__title {
+    text-align: left;
+  }
+}
 .order__text {
   margin: 18px 0 39px;
   font-size: 22px;
@@ -493,6 +498,11 @@
   font-size: 14px;
   line-height: 22px;
   color: rgba(43, 41, 45, 0.6);
+}
+@media screen and (min-width: 1400px) {
+  .order__terms {
+    text-align: left;
+  }
 }
 .order__terms-link {
   color: #3142c6;
@@ -883,6 +893,8 @@
 @media screen and (min-width: 1400px) {
   .social-links {
     margin-left: auto;
+    margin-top: 0;
+    margin-bottom: 0;
   }
 }
 .social-links__item {

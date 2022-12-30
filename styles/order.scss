@@ -30,6 +30,10 @@
     line-height: 40px;
     text-align: center;
     letter-spacing: -0.25px;
+
+    @include for-large-up {
+      text-align: left;
+    }
   }
 
   &__text {
@@ -84,6 +88,10 @@
     font-size: 14px;
     line-height: 22px;
     color: $text-color-light-grey;
+
+    @include for-large-up {
+      text-align: left;
+    }
   }
 
   &__terms-link {

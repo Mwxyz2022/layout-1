@@ -165,6 +165,8 @@
 
   @include for-large-up {
     margin-left: auto;
+    margin-top: 0;
+    margin-bottom: 0;
   }
 
   &__item {
