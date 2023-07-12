@@ -1,6 +1,6 @@
 # Foundation project
 
-### [Site link](https://mwxyz2022.github.io/project_1/)
+### [Site link]([https://mwxyz2022.github.io/project_1/](https://mwxyz2022.github.io/layout-1/))
 
 The layout supports mobile (from 320) and desktop (from 1400) versions.
 
